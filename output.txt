@@ -1,0 +1,13 @@
+Unstructured data, especially text, images and videos contain a wealth of information. 
+However, due to the inherent complexity in processing and analyzing this data, people often refrain from spending extra time and effort in venturing out from structured datasets to analyze these unstructured sources of data, which can be a potential gold mine.
+Natural Language Processing (NLP) is all about leveraging tools, techniques and algorithms to process and understand natural language-based data, which is usually unstructured like text, speech and so on. 
+In this series of articles, we will be looking at tried and tested strategies, techniques and workflows which can be leveraged by practitioners and data scientists to extract useful insights from text data. 
+We will also cover some useful and interesting use-cases for NLP. 
+This article will be all about processing and understanding text data with tutorials and hands-on examples.
+The nature of this series will be a mix of theoretical concepts but with a focus on hands-on techniques and strategies covering a wide variety of NLP problems. 
+Some of the major areas that we will be covering in this series of articles include the following.
+1. Processing & Understanding Text
+2. Feature Engineering & Text Representation
+3. Supervised Learning Models for Text Data
+4. Unsupervised Learning Models for Text Data
+5. Advanced Topics
