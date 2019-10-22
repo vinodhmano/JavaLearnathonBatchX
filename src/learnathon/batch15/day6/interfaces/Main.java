@@ -8,9 +8,9 @@ public class Main {
 		//This will not work
 		//human.swim();
 		
-		OlympicSwimmer os = new OlympicSwimmer("Suresh", "Indian", 19, true);
-		os.eat();
-		os.swim();
+		OlympicSwimmer suresh = new OlympicSwimmer("Suresh", "Indian", 19, true);
+		suresh.eat();
+		suresh.swim();
 		
 		//Instantiating a class object and assigning to a interface
 		LivingThing humanoid = new Human("Chitti","Endhiran",100,true);

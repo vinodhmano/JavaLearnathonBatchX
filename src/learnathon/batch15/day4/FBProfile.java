@@ -145,7 +145,7 @@ public class FBProfile {
 //		}
 //		return false;
 //	}
-//	
+	
 //	public boolean equals(Object obj) {
 //		if(this.getAge() == ((FBProfile)obj).getAge()) {
 //			return true;
