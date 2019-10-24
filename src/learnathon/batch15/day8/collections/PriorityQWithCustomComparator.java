@@ -14,7 +14,7 @@ public class PriorityQWithCustomComparator {
 			@Override
 			public int compare(String name1, String name2) {
 				// TODO Auto-generated method stub
-				return name1.length() - name2.length();
+				return (name1.length() - name2.length());
 			}
 			
 		};
@@ -23,8 +23,9 @@ public class PriorityQWithCustomComparator {
 	                          new PriorityQueue<>(lengthComparator); 
 	  
 	        // Adding items to the pQueue using add() 
-	        pQueue.add("Ed"); 
+
 	        pQueue.add("David");
+	        pQueue.add("Ed"); 
 	        pQueue.add("John");
 	        pQueue.add("Joe"); 
 	        pQueue.add("Stuwart");
@@ -41,5 +42,6 @@ public class PriorityQWithCustomComparator {
 	        System.out.println("----------------------------------");
 	        
 	        
-	    } 
+	    }
+
 }

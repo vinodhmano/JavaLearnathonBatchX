@@ -13,7 +13,7 @@ public class CheckedException {
 	   jvm simply terminates the program
 	   when we throw a exception, we should write a program to catch and handle it
 	 */
-	public static void readFile(String filepath) throws IOException {
+	public static void readFile(String filepath) throws IOException{
 		FileReader file = new FileReader(filepath);
 	    BufferedReader fileInput = new BufferedReader(file); 
 	          
@@ -27,6 +27,7 @@ public class CheckedException {
 	    file.close();
 	    fileInput.close();	 
 	}
+
 	
 	public static void main(String[] args) { 
 		System.out.println("Program starts");

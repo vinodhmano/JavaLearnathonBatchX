@@ -134,11 +134,11 @@ public class FBProfile {
 	}
 	
 	
-//	public int hashCode() {
-//		return age * (int)gender * Integer.parseInt(phoneNumber.substring(5));
-//	}
-//	
-//	
+	public int hashCode() {
+		return age * (int)gender * Integer.parseInt(phoneNumber.substring(5));
+	}
+	
+	
 //	public boolean equals(Object obj) {
 //		if(this.hashCode() == ((FBProfile)obj).hashCode()) {
 //			return true;
@@ -146,11 +146,11 @@ public class FBProfile {
 //		return false;
 //	}
 	
-//	public boolean equals(Object obj) {
-//		if(this.getAge() == ((FBProfile)obj).getAge()) {
-//			return true;
-//		}
-//		return false;
-//	}
+	public boolean equals(Object obj) {
+		if(this.getAge() == ((FBProfile)obj).getAge()) {
+			return true;
+		}
+		return false;
+	}
 	
 }

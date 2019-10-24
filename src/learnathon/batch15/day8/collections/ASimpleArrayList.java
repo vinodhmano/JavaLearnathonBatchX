@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 //import java.util.ListIterator;
 
-public class SimpleArrayList {
+public class ASimpleArrayList {
 	public static void main(String[] args) {
 		ArrayList<String> students = new ArrayList<String>();
 		students.add("Vinodh");
@@ -14,19 +14,21 @@ public class SimpleArrayList {
 		students.add("Raja");
 		students.add("Selva");
 		
-		
+		//.size() to get size
 		System.out.println(students.size());
+		
+		// .get(i) to get a specific item
 		System.out.println(students.get(3));
 		
+		//check for presence of an element
 		System.out.println(students.contains("Manoharan"));
 		
-		students.remove("Selv");
+		//remove an element
+		students.remove("Selvi");
 		System.out.println(students.size());
 		
-		
-
+		//print the whole list
 		System.out.println(students);
-		
 		
 		
 		//Iterating using for loop
@@ -53,6 +55,11 @@ public class SimpleArrayList {
 		for(String student:students) {  //for each String student in students  //for each item in collection
 			System.out.println(student.toUpperCase());
 		}
+		 
+		students.forEach(student -> {
+			System.out.println("Welcome " + student);
+		});
+		
 		
 		
 		/*

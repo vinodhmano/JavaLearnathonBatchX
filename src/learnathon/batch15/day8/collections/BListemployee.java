@@ -3,7 +3,7 @@ package learnathon.batch15.day8.collections;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Listemployee { 
+public class BListemployee { 
 	
 	public static void main(String[] args) {  
 		//Creating list of employees

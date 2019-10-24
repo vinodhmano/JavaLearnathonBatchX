@@ -23,7 +23,7 @@ public static void main(String args[]){
 		System.out.println(m.getKey()+"-->"+m.getValue());  
 	}  
 	
-	//Another example to story error codes and values
+	//Another example to store error codes and values
 	HashMap<Integer, String> errorCode = new HashMap<Integer, String>();
 	errorCode.putIfAbsent(200, "OK");
 	errorCode.putIfAbsent(401, "UNAUTHORIZED");

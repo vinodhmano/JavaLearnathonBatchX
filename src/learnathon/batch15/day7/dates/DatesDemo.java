@@ -10,7 +10,7 @@ public class DatesDemo {
 		Date d = new Date();
 		System.out.println(d);
 		System.out.println(d.getTime()); //1563924568672  1563924706149 1563924721746 1563924729506		
-		
+
 		//Jan 01 1970 epochs
 		
 		//Date(String) is deprecated

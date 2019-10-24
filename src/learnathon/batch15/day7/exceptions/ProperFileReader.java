@@ -11,6 +11,7 @@ public class ProperFileReader {
 		readFile();
 	}
 
+
 	public static void readFile(){
 		FileReader file = null;
 		BufferedReader fileInput = null;

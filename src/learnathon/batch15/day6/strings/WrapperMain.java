@@ -6,6 +6,7 @@ public class WrapperMain {
 	public static void main(String[] args) {
 		
 		int i = 10;
+
 		Integer I = i;
 		System.out.println(I.intValue());
 		
@@ -18,6 +19,9 @@ public class WrapperMain {
 		double d4 = 100.99;
 		System.out.println(d3 == d4);
 		
+		String number = "4500";
+		int n = Integer.parseInt(number);
+		System.out.println(n);
 
 	}
 }
