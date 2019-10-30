@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 class Calc {
 	public int divider(int a, int b) throws ArithmeticException{
+		if(a <0 || b <0) {
+			throw new ArithmeticException("Negative numbers are not allowed");
+		}
 		return a/b;
 	}
 	

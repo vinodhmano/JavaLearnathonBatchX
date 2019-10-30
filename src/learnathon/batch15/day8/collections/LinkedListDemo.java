@@ -30,6 +30,7 @@ public class LinkedListDemo {
         
         l_names.add(1, "Gaurav");
         System.out.println("After invoking add(int index, E element) method: "+l_names);  
+       
         
         ll_names.addFirst("Rahul");
         ll_names.addLast("Last name");
@@ -56,8 +57,6 @@ public class LinkedListDemo {
         System.out.println(ll_names.peek());
         System.out.println(ll_names.peekLast());
         System.out.println(ll_names.subList(0, 5));
-        
-        
         
         //poll removes
         System.out.println(ll_names.poll());

@@ -34,7 +34,7 @@ public class CRunnableDemo implements Runnable {
 	
 	public static void main(String[] args) {
 		
-		CRunnableDemo t1 = new CRunnableDemo();
+		CRunnableDemo t1 = new CRunnableDemo(); //runnable class
 		Thread first = new Thread(t1,"First");
 
 		CRunnableDemo t2 = new CRunnableDemo();
@@ -43,10 +43,13 @@ public class CRunnableDemo implements Runnable {
 		CRunnableDemo t3 = new CRunnableDemo();
 		Thread third = new Thread(t3,"Third");
 		
+		
+		
 		first.start();
 		second.start();
 		third.start();
 		
+		new Thread(new CRunnableDemo(), "fourth").start();
 
 		//from main thread
 		for(int i=0; i<20; i++) {

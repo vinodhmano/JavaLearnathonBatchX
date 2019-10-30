@@ -1,9 +1,10 @@
 package learnathon.batch15.day9.threads;
 
 public class EStringPrinter {
-	public static synchronized void printstrings(String a, String b) {
+	public void printstrings(String a, String b) {
 			System.out.print(a + " ");
 			
+			//sleep to simulate a long running operation
 			try {
 				Thread.sleep(100);
 			}catch(InterruptedException e) {

@@ -23,15 +23,6 @@ public class BSimpleThread extends Thread{
 	public void run() {
 		for(int i:tNumbers) {
 			System.out.println("From Thread " + this.getName() + " :" + i);
-			
-			
-//			try {
-//				Thread.sleep(1000);
-//			} catch (InterruptedException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
-			
 		}
 	}
 	
@@ -46,7 +37,6 @@ public class BSimpleThread extends Thread{
 		
 		BSimpleThread t2 = new BSimpleThread();
 		t2.setName("beta");
-		t2.setPriority(MIN_PRIORITY);
 		
 		BSimpleThread t3 = new BSimpleThread();
 		t3.setName("gamma");

@@ -7,6 +7,7 @@ import java.util.Iterator;
 public class ASimpleArrayList {
 	public static void main(String[] args) {
 		ArrayList<String> students = new ArrayList<String>();
+		
 		students.add("Vinodh");
 		students.add("Raj");
 		students.add("Manoharan");
@@ -24,7 +25,7 @@ public class ASimpleArrayList {
 		System.out.println(students.contains("Manoharan"));
 		
 		//remove an element
-		students.remove("Selvi");
+		students.remove("Selva");
 		System.out.println(students.size());
 		
 		//print the whole list
@@ -51,11 +52,14 @@ public class ASimpleArrayList {
 		//Iterating using for each loop
 		System.out.println("Printing using for-each loop");
 		
+		
+		// for a student in students
 		//for(int i = 0; i<students.size(); i++) {
 		for(String student:students) {  //for each String student in students  //for each item in collection
 			System.out.println(student.toUpperCase());
 		}
 		 
+		
 		students.forEach(student -> {
 			System.out.println("Welcome " + student);
 		});

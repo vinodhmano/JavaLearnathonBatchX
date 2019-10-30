@@ -60,6 +60,8 @@ public class PriorityQExample {
 	                             "or not?: " + b); 
 	  
 	        System.out.println("----------------------------------");
+	        
+	        
 	        // Getting objects from the queue using toArray() 
 	        // in an array and print the array  
 	        Object[] arr = pQueue.toArray(); 

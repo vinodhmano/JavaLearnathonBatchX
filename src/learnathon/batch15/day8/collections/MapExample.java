@@ -17,6 +17,7 @@ public static void main(String args[]){
 	map.put(101,"JOHN");  
 	map.put(102,"SAM");
 	map.put(102,"VICTOR");
+	map.put(104, "TOM");
 	
 	//Iterate to print the key and value.
 	for(Map.Entry<Integer,String> m:map.entrySet()){  

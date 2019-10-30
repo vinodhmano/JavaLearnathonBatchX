@@ -7,7 +7,7 @@ public class BListemployee {
 	
 	public static void main(String[] args) {  
 		//Creating list of employees
-    		ArrayList<Employee> empList=new ArrayList<Employee>();  
+    		ArrayList<Employee> empList = new ArrayList<Employee>();  
     		
 		// Creating data for the employee
     		Employee emp1=new Employee(101,"TOM","HR",1000);  

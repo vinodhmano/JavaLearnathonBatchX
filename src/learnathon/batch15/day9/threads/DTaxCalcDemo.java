@@ -45,7 +45,7 @@ class TaxCalculator implements Runnable{
 		//like reading the data from database
 		//doing some data cleaning etc.,
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(100);
 		} catch (InterruptedException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

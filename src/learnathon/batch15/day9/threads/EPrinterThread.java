@@ -1,20 +1,34 @@
 package learnathon.batch15.day9.threads;
 
 public class EPrinterThread implements Runnable{
-	Thread t;
+
 	String one;
 	String two;
+	EStringPrinter e;
 	
-	public EPrinterThread(String one, String two) throws InterruptedException {
+	//Synchronized method
+//	public EPrinterThread(String one, String two) throws InterruptedException {
+//		this.one = one;
+//		this.two = two;
+//	}
+	
+//	Synchronized Object
+	public EPrinterThread(String one, String two, EStringPrinter e) throws InterruptedException {
 		this.one = one;
 		this.two = two;
-		Thread t = new Thread(this);
-		t.start();
-	//	t.join();
+		this.e = e;
 	}
 	
 	public void run() {
-		EStringPrinter.printstrings(one, two);
+		
+		//synchronized method
+//		EStringPrinter.printstrings(one, two);
+
+//		Synchronized Object
+		synchronized(e) {
+			e.printstrings(one, two);
+		}
+		
 	}
 	
 	
